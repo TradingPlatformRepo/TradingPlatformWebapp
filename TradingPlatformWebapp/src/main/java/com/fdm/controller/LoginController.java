@@ -31,6 +31,10 @@ public class LoginController
 //        this.lgui.setScan(scan);
     }
     
+    /*
+     * testcomment for test
+     */
+    
     public IUserStorage getStore()
     {
         return store;
