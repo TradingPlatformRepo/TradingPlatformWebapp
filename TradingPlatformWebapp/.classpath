@@ -23,6 +23,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/paul.ramotowski/Desktop/paul.ramotowski.repo/Paul Ramotowski - Java Code/JDBC.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/JDBC.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
