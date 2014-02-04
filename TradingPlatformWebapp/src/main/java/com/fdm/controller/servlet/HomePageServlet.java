@@ -31,10 +31,12 @@ public class HomePageServlet extends HttpServlet {
 		Login log = new Login(new DBUserStorage());
 		
 		if(val.checkUsername(username) && val.checkPassword(password)){
+			
 			if(log.authenticate(username, password)){
 				valid = true;
 			}
 		} else {
+			System.out.println("password sucks");
 			valid = false;
 		}
 		
