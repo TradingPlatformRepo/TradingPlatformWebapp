@@ -1,4 +1,4 @@
-package com.fdm.model.storage;
+package com.fdm.model;
 
 public class UsernameValidation implements IValidation {
 
