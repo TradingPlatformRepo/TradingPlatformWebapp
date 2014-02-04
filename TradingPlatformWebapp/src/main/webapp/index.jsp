@@ -11,7 +11,7 @@
 <h1>Trading Platform</h1>
 
 	<div style="float:left; width:40%">
-		<form method= "get" action="loginAuthenticate">
+		<form method= "post" action="loginAuthenticate">
 		    
 		    <input style="float:right" type="text" name="Username">
 		    <label style="float:right">Username: </label>
